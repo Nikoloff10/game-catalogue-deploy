@@ -14,7 +14,7 @@ const GameGrid = () => {
 
       <SimpleGrid
         columns={{ sm: 1, md: 2, lg: 3, xl: 5 }}
-        gap={10}
+        gap={3}
         padding={10}
       >
         {isLoading &&
