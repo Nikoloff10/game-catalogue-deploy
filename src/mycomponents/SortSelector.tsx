@@ -37,7 +37,7 @@ const SortSelector = ({onSelectSortOrder, sortOrder}: Props) => {
         borderRadius={10}
         position="absolute"
         marginLeft="33vh"
-        marginTop="25vh"
+        marginTop="5vh"
       >
         {sortOrders.map((order) => (
           <MenuItem onClick={() => onSelectSortOrder(order.value)} key={order.value} value={order.value}>
