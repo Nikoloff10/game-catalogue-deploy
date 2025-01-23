@@ -1,12 +1,4 @@
-import {
-  Box,
-  Flex,
-  Grid,
-  GridItem,
-  Heading,
-  HStack,
-  Stack,
-} from "@chakra-ui/react";
+import { Box, Flex, Grid, GridItem } from "@chakra-ui/react";
 import NavBar from "./mycomponents/NavBar";
 import GameGrid from "./mycomponents/GameGrid";
 import GenreList from "./mycomponents/GenreList";
@@ -72,8 +64,6 @@ function App() {
               }
             />
           </Flex>
-
-          
         </Box>
         <GameGrid gameQuery={gameQuery} />
       </GridItem>
