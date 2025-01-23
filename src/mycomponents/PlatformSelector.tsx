@@ -31,7 +31,7 @@ const PlatformSelector = ({ onSelectPlatform, selectedPlatform }: Props) => {
           <BsChevronDown />
         </IconButton>
       </MenuTrigger>
-      <MenuContent borderRadius={10} position="absolute">
+      <MenuContent borderRadius={10} position="absolute" marginLeft="8vh" marginTop="52vh">
         {data.map((platform) => (
           <MenuItem onClick={() => onSelectPlatform(platform)} key={platform.id} value={platform.id.toString()}>
             {platform.name}
