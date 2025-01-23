@@ -25,7 +25,7 @@ const PlatformSelector = ({ onSelectPlatform, selectedPlatform }: Props) => {
   }
   return (
     <MenuRoot>
-      <MenuTrigger marginLeft="4vh" marginBottom="2vh">
+      <MenuTrigger marginBottom="2vh">
         <IconButton size="sm" padding="15px" variant="subtle">
           {selectedPlatform?.name || "All Platforms"}
           <BsChevronDown />
